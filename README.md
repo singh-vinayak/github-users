@@ -1,6 +1,6 @@
 # github-users
 Use Github REST API to find github users.<br>
-<p>Click <a href='#'>Here</a> to see my work</p>
+<p>Click <a href='https://vinayak-singh5302.github.io/github-users/'>Here</a> to see my work</p>
 
 <h2>How to Run locally?</h2> use lite-server!<br>
 <p>
