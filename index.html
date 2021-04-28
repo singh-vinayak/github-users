@@ -11,6 +11,7 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Github Users</title>
 </head>
@@ -18,11 +19,11 @@
 <body>
     <div class="container">
         <div class="row col-md-10 mx-auto" style="margin-top: 15%;">
-            <label for="username" style="margin-bottom: 10px;font-weight: bold; font-size: larger;">Search for GitHub user below</label>
+            <label for="username" style="color: #e0e0e0;margin-bottom: 10px;font-weight: bold; font-size: larger;">Search for GitHub user below</label>
             <input type="text" id="username" placeholder="Enter username of GitHub account" style="margin-bottom: 10px; padding: 5px; border-radius: 10px;">
             <button type="submit" class="btn btn-primary" id="get-user" style="width: 125px; margin: 0 auto;">Get User</button>
         </div>
-        <div id="user-info" class="row" style="background-color: rgb(165, 165, 165);border: 1px solid #e0e0e0; margin: 10% 10px; box-shadow: 0 1px 5px rgba(0,0,0,0.35), 0 3px 4px rgba(0,0,0,0.55); height:400px ; width: 100%;border-radius: 20px;display: none;">
+        <div id="user-info" class="row" style="background-color: rgb(255, 255, 255);border: 1px solid #e0e0e0; margin: 10% 10px; box-shadow: 0 1px 5px rgba(0,0,0,0.35), 0 3px 4px rgba(0,0,0,0.55); height:400px ; width: 100%;border-radius: 20px;display: none;">
             
         </div>
     </div>

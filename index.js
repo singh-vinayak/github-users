@@ -16,13 +16,13 @@ btngetUser.addEventListener('click', () => {
             {
                 userInfo.style.display='flex'
                 userInfo.innerHTML=`
-            <div class="col col-md-4" style="background-color:#fff;box-shadow: 0 1px 5px rgba(0,0,0,0.35), 0 3px 4px rgba(0,0,0,0.55); height: 350px; margin-top: 3%;box-sizing: border-box;display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;">
+            <div class="col col-md-4" style="background-color:#e0e0e0;box-shadow: 0 1px 5px rgba(0,0,0,0.35), 0 3px 4px rgba(0,0,0,0.55); height: 350px; margin-top: 3%;box-sizing: border-box;display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;">
                 <img src="${data.avatar_url}" style="height: 200px; width: 200px; border-radius: 50%;">
                 <h5 style="font-size: 1.5em;">${data.name}</h5>
                 <span class="text-muted">${data.login}</span>
                 <p style='text-align:center'>${data.company!== null? data.company : ''}</p>
             </div>
-            <div class="col col-md-7 offset-md-1" style="background-color:#fff;box-shadow: 0 1px 5px rgba(0,0,0,0.35), 0 3px 4px rgba(0,0,0,0.55); height: 350px; margin-top: 3%;box-sizing: border-box;display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;">
+            <div class="col col-md-7 offset-md-1" style="background-color:#e0e0e0;box-shadow: 0 1px 5px rgba(0,0,0,0.35), 0 3px 4px rgba(0,0,0,0.55); height: 350px; margin-top: 3%;box-sizing: border-box;display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;">
                 <h5>${data.bio}</h5>
                 <a href='${data.blog !== null ? data.blog : ''}'>${data.blog!==null? data.blog:''}</a>
                 <p><i class="fas fa-map-marker"></i> ${data.location!==null? data.location:' Unspecified'}</p>
