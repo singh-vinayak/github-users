@@ -1,5 +1,8 @@
+*{
+    box-sizing:border-box;
+}
 body{
-    background-image: url('img/bg-img.jpg');
+    background-image: url('https://th.bing.com/th/id/R.9a34e6508646c085377557eaec886656?rik=1UU%2fKSs7a%2fB5XQ&riu=http%3a%2f%2fgraphicdesignjunction.com%2fwp-content%2fuploads%2f2012%2f07%2fbackground-pattern-15.jpg&ehk=HVKagVD4FVVtKz4F32RFlrlzX0FJr7Vqf6yFbn%2bwujo%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 }
